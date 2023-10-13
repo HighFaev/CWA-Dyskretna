@@ -1,0 +1,2 @@
+Formula = floor(log(n) / log(3)) + 1
+Formula worked in 30 tests out of 30
