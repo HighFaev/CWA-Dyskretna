@@ -1,2 +1,2 @@
 Formula = (n/2+1) * (floor(log(n)/log(2)) + 1)
-Formula worked in 1000 tests out of 1000
+Formula worked in 500 tests out of 500

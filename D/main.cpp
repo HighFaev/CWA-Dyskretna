@@ -95,15 +95,15 @@ int32_t main()
 {
     srand(time(NULL));
     
-    for(int test_number = 1; test_number <= 1000; test_number++){
+    for(int test_number = 1; test_number <= 500; test_number++){
         string name_of_outputFile = "gen_output/output" + to_string(test_number) + ".txt";
         vector<string> parametrs = {"i", "j", "n", "m"};
         vector<vector<int>> steps = {};
         vector<int> step;
 
 
-        int n = rand() % (10*test_number);
-        int m = rand() % (10*test_number);
+        int n = rand() % (20*test_number);
+        int m = rand() % (20*test_number);
         
         for (int i = 0; i <= n; i += 2){
             int j = 1;
